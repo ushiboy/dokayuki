@@ -9,7 +9,9 @@ import {
 import { useCookies } from "react-cookie";
 import resourcesToBackend from "i18next-resources-to-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
-import { getOptions, languages, cookieName, Language } from "./settings";
+import { languages, cookieName } from "./constants";
+import { getOptions } from "./getOptions";
+import { Language } from "./types";
 
 const runsOnServerSide = typeof window === "undefined";
 
@@ -66,7 +68,7 @@ export function useTranslation(
         return;
       }
       setCookie(cookieName, lng, { path: "/" });
-    }, [lng, cookies.i18next]);
+    }, [lng, cookies.i18next, setCookie]);
   }
 
   return ret;

@@ -1,5 +1,5 @@
-import { Language } from "@/app/i18n/settings";
-import { useTranslation } from "@/app/i18n";
+import { Language } from "@/app/i18n";
+import { useTranslation } from "@/app/i18n/server";
 import { FooterBase } from "./FooterBase";
 
 type Props = {
