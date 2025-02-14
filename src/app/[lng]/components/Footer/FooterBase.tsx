@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Trans } from "react-i18next/TransWithoutContext";
-import { languages, Language } from "@/app/i18n/settings";
+import { languages, Language } from "@/app/i18n";
 import { TFunction } from "i18next";
 
 type Props = {

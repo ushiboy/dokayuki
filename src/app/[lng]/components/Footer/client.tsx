@@ -1,6 +1,6 @@
 "use client";
 
-import { Language } from "@/app/i18n/settings";
+import { Language } from "@/app/i18n";
 import { useTranslation } from "@/app/i18n/client";
 import { FooterBase } from "./FooterBase";
 

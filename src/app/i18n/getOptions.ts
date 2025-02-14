@@ -1,12 +1,5 @@
-export type Language = "en" | "ja";
-
-export const fallbackLng: Language = "en";
-
-export const languages: Language[] = ["en", "ja"] as const;
-
-export const cookieName = "i18next";
-
-export const defaultNS = "translation";
+import { defaultNS, fallbackLng, languages } from "./constants";
+import { Language } from "./types";
 
 export function getOptions(
   lng: Language = fallbackLng,

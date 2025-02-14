@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { useTranslation } from "@/app/i18n";
-import { Language } from "@/app/i18n/settings";
+import { useTranslation } from "@/app/i18n/server";
+import { Language } from "@/app/i18n";
 import { Footer } from "./components/Footer";
 
 type Props = {
