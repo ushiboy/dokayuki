@@ -1,5 +1,5 @@
 import { dir } from "i18next";
-import { Language, languages } from "@/app/i18n";
+import { Language, languages } from "@/i18n";
 import "../globals.css";
 
 type Props = {

@@ -2,8 +2,8 @@
 
 import { use, useState } from "react";
 import Link from "next/link";
-import { useTranslation } from "@/app/i18n/client";
-import { Language } from "@/app/i18n";
+import { useTranslation } from "@/i18n/client";
+import { Language } from "@/i18n";
 import { Footer } from "../components/Footer/client";
 
 type Props = {
