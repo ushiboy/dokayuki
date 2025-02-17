@@ -1,7 +1,7 @@
 "use client";
 
-import { Language } from "@/app/i18n";
-import { useTranslation } from "@/app/i18n/client";
+import { Language } from "@/i18n";
+import { useTranslation } from "@/i18n/client";
 import { FooterBase } from "./FooterBase";
 
 type Props = {
